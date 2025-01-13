@@ -1,0 +1,21 @@
+name: game-rec
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.13
+  - pandas
+  - tqdm
+  # Data collection
+  - python-dotenv
+  - requests
+  - beautifulsoup4
+  # Recommendation methods
+  - matplotlib
+  - seaborn
+  - numpy
+  - scikit-learn
+  - scipy
+  - keras
+  - tensorflow
+  - implicit
